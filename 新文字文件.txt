@@ -1,0 +1,21 @@
+import data
+
+先處理train data，test data為kaggle預測評分用(最後比照train data辦理)
+
+drop 無用的欄位 取出X_train, y_train
+
+觀察生存欄位(y)是否不平衡
+
+解決'Sex', 'Embarked'文字分類
+
+移除有空值的rows
+
+y -> one hot encoder 
+
+#####
+create simple Sequential DNN model
+
+train model
+
+see model history
+
