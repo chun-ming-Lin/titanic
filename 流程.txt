@@ -12,6 +12,8 @@ drop 無用的欄位 取出X_train, y_train
 
 y -> one hot encoder 
 
+***常態化 MinMaxScaler(0~1)
+
 #####
 create simple Sequential DNN model
 
@@ -19,3 +21,6 @@ train model
 
 see model history
 
+
+#####
+增加Dense, units
